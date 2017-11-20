@@ -16,7 +16,7 @@ En este trabajo se ha aplicado todo lo parendido hasta ahora en **js**, **css** 
 *Header
 *Section (2 divs dentro)
 
-##Trabajo terminado
+## Trabajo terminado
 
 ![Twitter](assets/docs/twitter.png)
 
