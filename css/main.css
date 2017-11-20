@@ -1,0 +1,165 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/*body*/
+body {
+  background-image: url(../assets/images/fondo.jpg);
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+/*header*/
+
+.header {
+  background-color: #ffff;
+  width: 100%;
+  height: 70px;
+  position: relative;
+  box-shadow: inset 0 0 15px 0 #4ACCF5;
+}
+
+.logo {
+  height: 30px;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+
+/*section*/
+/*div post*/
+
+.post {
+  display: inline-block;
+  background-color: #ffff;
+  width: 430px;
+  position: relative;
+  left: 13%;
+  top: 70px;
+  padding: 20px;
+  box-shadow: inset 0 0 5px 0 #909090;
+}
+
+.h2-post {
+  padding-bottom: 20px;
+}
+
+.text-post {
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.line {
+  width: 430px;
+  border: none;
+  border-top: 2px solid gray;
+  margin: 15px 0;
+}
+
+.word-post {
+  color: #007FE2;
+  font-weight: 600;
+}
+
+/*Div form*/
+.form {
+  display: inline-block;
+  background-color: #ffff;
+  width: 430px;
+  position: relative;
+  left: 14%;
+  top: 70px;
+  padding: 20px;
+  box-shadow: inset 0 0 5px 0 #909090;
+}
+
+.count{
+  font-weight: 800;
+  font-size: 22px;
+  position: relative;
+  top: 50px;
+  left: 390px;
+}
+
+.btn {
+  background-color: #4ACCF5;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  outline: none;
+  padding: 7px;
+  font-weight: 700;
+  font-size: 17px;
+  position: relative;
+  top: 6px;
+  right: 4px;
+
+}
+
+.btn:hover {
+  background-color: #007FE2;
+  box-shadow: inset 0 0 10px 0 #909090;
+}
+
+.btn:active {
+  background-color: #00367E;
+}
+
+.textarea-size {
+  max-height: 200px;
+  min-height: 15px;
+  width: 410px;
+  //ocultar barra de scroll vertical
+  overflow-y: hidden;
+  border: none;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+.line-two {
+  border: none;
+  border-top: 2px solid #4ACCF5;
+  position: relative;
+  bottom: 20px;
+  width: 430px;
+  margin: 5px 0;
+}
+
+/*ul de teewts*/
+.ul-div {
+  height: 50px;
+  position: relative;
+  left: 3%;
+  background-color: #ffff;
+  width: 91%;
+  top: 150px;
+  border-radius: 7px;
+  padding: 18px;
+  margin-bottom: 15px;
+  box-shadow: inset 0 0 5px 0 #909090;
+}
+
+.span-hour {
+  position: absolute;
+  left: 18px;
+  bottom: 10px;
+  font-weight: 500;
+  color: gray;
+  letter-spacing: 2.5px;
+}
+
+.li-tweet {
+  font-size: 14px;
+  line-height: 20px;
+  list-style: none;
+  font-weight: 500;
+  padding-top: 7px;
+  width: 410px;
+  display: inline-block;
+}
